@@ -83,7 +83,7 @@ def predict():
     
     st.write('Prediction', prediction[0])
     if prediction[0] == 1: 
-        st.success('BAD NEWS! BE CAREFUL:heavy_exclamation_mark: :eggplant: :thumbsdown:')
+        st.success('BAD NEWS! BE CAREFUL:heavy_exclamation_mark: :thumbsdown:')
     else: 
         st.error('GOOD NEWS SHE IS LOYAL :thumbsup: :chocolate_bar: :champagne:') 
 
